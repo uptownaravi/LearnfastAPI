@@ -27,7 +27,7 @@ service:
   port: 80
 
 ingress:
-  enabled: true
+  enabled: false
   className: "alb"
   annotations: {}
   hosts:
